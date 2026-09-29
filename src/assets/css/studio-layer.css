@@ -1,0 +1,73 @@
+/* ============================================================
+   SANITY STUDIO INTEGRATION LAYER
+   Appended after pdf-remediation.css. Everything stays scoped
+   under .aiopdf-app / .aiopdf-studio-scroll.
+   ============================================================ */
+
+/* The tool pane is a fixed-height flex child; the workspace scrolls inside it. */
+.aiopdf-studio-scroll {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* The embedded rules make the root transparent and inherit colour. Inside the
+   Studio there is no host page ground, so the workspace supplies its own —
+   and follows data-theme instead of the Studio's text colour. */
+.aiopdf-app.aiopdf-embedded.aiopdf-studio {
+  min-height: 100%;
+  padding: 24px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .aiopdf-app.aiopdf-embedded.aiopdf-studio {
+    padding: 32px;
+  }
+}
+
+/* Studio styles native controls from its own theme; restate the basics so the
+   module's rules win without touching width/appearance. */
+.aiopdf-app button,
+.aiopdf-app input,
+.aiopdf-app select,
+.aiopdf-app textarea {
+  font-family: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.aiopdf-app[data-theme='light'] {
+  color-scheme: light;
+}
+.aiopdf-app[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+.aiopdf-app .visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.aiopdf-app :focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aiopdf-app .spin {
+    animation: none;
+  }
+}

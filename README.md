@@ -1,10 +1,10 @@
-The **SkynetA11y PDF Remediation Application** brings **PDF Accessibility Remediation for WCAG & PDF/UA Compliance** directly into your own application. It is both a **PDF Accessibility Checker** and an **AI Remediation Tool**: upload documents or crawl your website for them, let AI repair the accessibility barriers automatically, review every check that was applied, and download conformant files — without leaving your own admin area.
+The **SkynetA11y PDF Remediation Application** brings **PDF Accessibility Remediation for WCAG & PDF/UA Compliance** directly into your own application. It is both a **PDF Accessibility Checker** and an **AI Remediation Tool**: upload documents or crawl your website for them, let AI repair the accessibility barriers automatically, review every check that was applied, and download conformant files - without leaving your own admin area.
 
 It fixes the barriers that make PDFs unusable with assistive technology: missing tags, incorrect reading order, inaccessible forms and tables, images without alternate text, and absent document structure, language and metadata.
 
 It supports compliance with **WCAG 2.0, 2.1, 2.2, PDF/UA, ADA, Section 508, AODA, and EN 301 549 (EAA)**. With plain-language explanations and before/after examples for every check, even non-technical users can understand what was fixed and why it mattered.
 
-This build is **plain HTML, CSS and JavaScript** — no framework, no bundler, no build step and no dependencies — so it drops into any platform: a PHP or Node application, a CMS admin area, a static internal tool, or a page of its own.
+This build is **plain HTML, CSS and JavaScript** - no framework, no bundler, no build step and no dependencies - so it drops into any platform: a PHP or Node application, a CMS admin area, a static internal tool, or a page of its own.
 
 This application is designed for:
 
@@ -15,13 +15,13 @@ This application is designed for:
 - E-commerce platforms
 - Development and maintenance agencies
 
-[**Start with a free AI remediation trial — up to 5 pages!**](https://www.skynettechnologies.com/pdf-accessibility-remediation)
+[**Start with a free AI remediation trial - up to 5 pages!**](https://www.skynettechnologies.com/pdf-accessibility-remediation)
 
 ---
 
 ## Why SkynetA11y PDF Remediation?
 
-PDFs are where accessibility compliance quietly fails. A site can pass every page-level audit and still publish hundreds of untagged documents — reports, forms, invoices, policies — that screen readers cannot navigate at all.
+PDFs are where accessibility compliance quietly fails. A site can pass every page-level audit and still publish hundreds of untagged documents - reports, forms, invoices, policies - that screen readers cannot navigate at all.
 
 Remediating them by hand is slow and expensive. This application makes it a routine part of publishing: documents are discovered, repaired and re-checked inside the tools your team already uses, so accessible PDFs become the default rather than a project.
 
